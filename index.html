@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            width: 100%;
+            background-color:#333;
+           height: 100vh;
+            overflow-x: hidden;
+           
+            
+        }
+       
+        
+       
+        .header-content h3 {
+            
+            font-size: 2.5rem;
+            margin-left: 43%;
+            color: #fff;
+            z-index: 100;
+        }
+        .header-content h4{
+            font-size: 2.5rem;
+            margin-left: 30%;
+            color: rgb(37, 37, 163);
+            z-index: 100;
+        }
+
+       
+        .profile-picture {
+
+           margin-top: 10%;
+            width: 100px; 
+            height: 100px;
+            border-radius: 50%; 
+            object-fit: cover; 
+            margin-left: 46%;
+           
+            left: 75px; 
+        }
+
+        nav {
+            position: fixed; 
+           left: 0;
+           width: 100%;
+            background-color: #020202;
+      
+            padding: 15px;
+           
+            
+        }
+
+        nav ul {
+            list-style-type: none;
+
+            padding-left: 55%;
+        }
+        nav ul a:hover{
+        color:  white;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+           
+        }
+
+        .section-content {
+            min-height: 100hvh;
+            background-color: #fff;
+            padding: 15%;
+            margin-top: 1rem;
+            
+           
+          
+            
+           
+            
+        }
+        .section-skills ul{
+            min-height: 100hvh;
+            
+            padding: 15%;
+            margin-top: 1rem;
+            padding-top: 21%;
+           
+            text-align: justify;
+        }
+        
+        .section-skills div{
+            font-size: x-large;
+        color: #fff;
+       left: 20%;
+        }
+        .section-skills h2{
+            font-size: xx-large;
+        color: black;
+       
+        }
+       
+        .section-content1 {
+        background-color: #fff;
+        padding: 15%;
+        
+        
+        margin-top: 22%;
+        font-size: large;
+        color: black;
+        }
+        
+        .section{
+            color: #fff;
+            font-weight: 300;
+            text-align: center;
+
+        }
+        .section span{
+            color: #020202;
+            font-weight: 100px;
+            font-size: large;
+        }
+
+        
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        @media (max-width: 1024px) {
+    .header-content h3 {
+        margin-left: 30%;
+        font-size: 2rem;
+    }
+
+    .header-content h4 {
+        margin-left: 20%;
+        font-size: 2rem;
+    }
+
+    .profile-picture {
+        margin-left: 40%;
+        width: 80px;
+        height: 80px;
+    }
+
+    nav ul {
+        padding-left: 30%;
+    }
+
+    .section-content, .section-skills ul, .section-content1 {
+        padding: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-content h3, .header-content h4 {
+        margin-left: 10%;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .profile-picture {
+        margin-left: 35%;
+        width: 70px;
+        height: 70px;
+    }
+
+    nav ul {
+        padding-left: 10%;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .section-content, .section-skills ul, .section-content1 {
+        padding: 5%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-content h3, .header-content h4 {
+        font-size: 1.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .profile-picture {
+        margin-left: 30%;
+        width: 60px;
+        height: 60px;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        padding-left: 0;
+    }
+
+    .section-content, .section-skills ul, .section-content1 {
+        padding: 3%;
+        font-size: 0.9rem;
+    }
+}
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <ul class="nav">
+            <li><a href="#about">About</a></li>
+            
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#education">Contact Us</a></li>
+        </ul>
+    </nav>
+<br>
+    <div class="header-content">
+<section>
+<img src="jeeva.jpeg" class="profile-picture">
+<h3>I'm Jeeva</h3>
+<h4>An Experienced Web developer</h4>
+
+
+
+
+</section>
+
+
+    </div>
+
+    <section id="about">
+        <div class="section-content1">
+    <h2>About Me</h2>
+            <p>
+                I am a skilled web developer with expertise in Java, specializing in building scalable and high-performance web applications. With a strong foundation in backend development using frameworks like Spring Boot, I design and develop robust APIs, integrate databases efficiently, and ensure seamless application functionality.  
+                I have experience working with front-end technologies such as HTML, CSS, and JavaScript, allowing me to create dynamic and user-friendly web interfaces. My focus on clean code, performance optimization, and security ensures that the applications I develop meet industry standards and business requirements.  
+                Passionate about continuous learning and staying updated with the latest web technologies, I thrive in solving complex challenges and delivering innovative solutions for web development projects.  
+                </p>
+
+        </div>
+    </section>
+
+   
+
+    <section id="skills">
+        <div class="section-skills">
+            <div class="div">
+                <dl>
+            <dt><h2>Skills</h2>
+         
+                <dd><li>Html,Css and JavaScript</li></dd>
+               <dd><li>Python</li></dd>
+                <dd><li>Java</li></dd>
+                </dt>
+        </dl>
+           
+            
+        </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <a href="https://jefferydayana.github.io/voiceassistant2/" target="_blank"><img src="image.png" width="300px"></a><br>
+                <a href="https://jefferydayana.github.io/jeeva/" target="_blank"><img src="quiz.jpg" width="300px"></a>
+                
+            </ul>
+        </div>
+    </section>
+    
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="jeeval.pdf" target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+    <section id="education">
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p><span>Phone Number:</span>  7448372948</p>
+            <p><span>Email Id:</span> jeevalawrance2004@gmail.com</p>
+            
+            
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Jeeva L </p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
